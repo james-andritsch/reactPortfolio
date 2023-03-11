@@ -36,7 +36,7 @@ THEN you are presented with text or icon links to the developer’s GitHub and L
 
 ___
 - [Deployed Page]()
--[Github Repository](https://github.com/james-andritsch/reactPortfolio)
+- [Github Repository](https://github.com/james-andritsch/reactPortfolio)
 
 ## Screenshot
 ___
