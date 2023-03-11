@@ -1,25 +1,76 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import Nav from './components/nav.js';
+import Portfolio from './components/portfolio';
+import About from './components/about';
+import Contact from './components/contact';
+import Footer from './components/footer';
+import Resume from './components/resume';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const options = [
+  {
+    name: "About Me",
+    link: "/about-me"
+  },
+  {
+    name: "Portfolio",
+    link: "/portfolio"
+  },
+  {
+    name: "Resume",
+    link: "/resume"
+  }
+]
+
+const projects = [
+  {
+    name: "",
+    github: "",
+    live: "",
+    picture: require('')
+  },
+  {
+    name: "",
+    github: "",
+    live: "",
+    picture: require('')
+  },
+  {
+    name: "",
+    github: "",
+    live: "",
+    picture: require('')
+  },
+  {
+    name: "",
+    github: "",
+    live: "",
+    picture: require('')
+  },
+  {
+    name: "",
+    github: "",
+    live: "",
+    picture: require('')
+  },
+  {
+    name: "",
+    github: "",
+    live: "",
+    picture: require('')
+  },
+  {
+    name: "",
+    github: "",
+    live: "",
+    picture: require('')
+  },
+]
+
+const avatar = {
+  alt: 'avatar of James Andritsch',
+  picture: require('./assets/')
 }
+
 
 export default App;
